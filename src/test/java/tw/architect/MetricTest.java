@@ -14,4 +14,15 @@ public class MetricTest {
 
         assertTrue(actualValue);
     }
+    @Test
+    public void testIf1meterIsEqualTo100centimeters() {
+        Metrics metric1 = new Metrics(MetricTypes.METER.getMetricType(), 1);
+        Metrics metric2 = new Metrics(MetricTypes.CENTIMETER.getMetricType(), 100);
+
+        metric1.conversionOfMetricType(metric1,metric2);
+
+        assertTrue(metric1.equals(metric2));
+    }
+
+
 }
