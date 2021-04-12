@@ -26,6 +26,9 @@ public class Metrics {
         if(metric1.metricType == MetricTypes.METER.getMetricType() && metric2.metricType == MetricTypes.CENTIMETER.getMetricType()){
             metric2.metricValue = metric2.metricValue/100;
             metric2.metricType = MetricTypes.METER.getMetricType();
+        }else  if(metric1.metricType == MetricTypes.CENTIMETER.getMetricType() && metric2.metricType == MetricTypes.KILOMETER.getMetricType()){
+            metric2.metricValue = metric2.metricValue*1000;
+            metric2.metricType = MetricTypes.CENTIMETER.getMetricType();
         }
     }
 }

@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.MetricTest.testIf1meterIsEqualTo100centimeters">
+  <component name="RunManager" selected="Gradle.MetricTest.testIf100centimetersIsEqualTo0Point1kilometers">
     <configuration name="MetricTest.testIf100centimetersIsEqualTo0Point1kilometers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,8 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MetricTest.testIf1meterIsEqualTo100centimeters" />
         <item itemvalue="Gradle.MetricTest.testIf100centimetersIsEqualTo0Point1kilometers" />
+        <item itemvalue="Gradle.MetricTest.testIf1meterIsEqualTo100centimeters" />
         <item itemvalue="Gradle.MetricTest.testIf1centimeterIsEqualTo1centimeter" />
       </list>
     </recent_temporary>
